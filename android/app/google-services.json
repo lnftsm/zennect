@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "815198555724",
+    "project_id": "zennect-ea8f0",
+    "storage_bucket": "zennect-ea8f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815198555724:android:765c153097172095c6aee9",
+        "android_client_info": {
+          "package_name": "com.example.zennect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsPebMMTxhILi16z9Xp3Zwv2DU7jPevvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815198555724:android:e1b8a4f2298cb90cc6aee9",
+        "android_client_info": {
+          "package_name": "com.zennect.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsPebMMTxhILi16z9Xp3Zwv2DU7jPevvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,17 +4,20 @@ class AppColors {
   AppColors._();
 
   // Primary Colors - Zen-inspired palette
-  static const Color primary = Color(0xFF2E8B57); // Sea Green
-  static const Color primaryLight = Color(0xFF52C785);
-  static const Color primaryDark = Color(0xFF1F5F3F);
+  //static const Color primary = Color(0xFF2E8B57); // Sea Green
+  static const Color primary = Color(0xFF9C27B0);
+  static const Color primaryLight = Color.fromARGB(255, 174, 82, 199);
+  static const Color primaryDark = Color.fromARGB(255, 95, 31, 62);
 
   // Secondary Colors
-  static const Color secondary = Color(0xFF8B7355); // Warm Brown
-  static const Color secondaryLight = Color(0xFFB8A082);
-  static const Color secondaryDark = Color(0xFF5D4C37);
+  //static const Color secondary = Color(0xFF8B7355); // Warm Brown
+  static const Color secondary = Color(0xFF4CAF50);
+  static const Color secondaryLight = Color.fromARGB(255, 130, 184, 136);
+  static const Color secondaryDark = Color.fromARGB(255, 60, 93, 55);
 
   // Accent Colors
-  static const Color accent = Color(0xFFE6B17A); // Soft Gold
+  //static const Color accent = Color(0xFFE6B17A); // Soft Gold
+  static const Color accent = Color(0xFFFF9800);
   static const Color accentLight = Color(0xFFF0C794);
   static const Color accentDark = Color(0xFFD4975C);
 
@@ -99,7 +102,8 @@ class AppColors {
   static const LinearGradient primaryGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFF2E8B57), Color(0xFF52C785)],
+    //colors: [Color(0xFF2E8B57), Color(0xFF52C785)],
+    colors: [Color(0xFF9C27B0), Color(0xFF9B84FF)],
   );
 
   static const LinearGradient secondaryGradient = LinearGradient(

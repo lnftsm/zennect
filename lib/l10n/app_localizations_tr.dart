@@ -229,6 +229,35 @@ class AppLocalizationsTr extends AppLocalizations {
       'Kişisel verilerimin işlenmesine izin veriyorum (KVKK)';
 
   @override
+  String get authCreateNewAccount => 'Yeni Kullanıcı';
+
+  @override
+  String get authSignInToAccount => 'Giriş';
+
+  @override
+  String get authDontHaveYouAccount => 'Hesabınız yok mu?';
+
+  @override
+  String get authAlreadyHaveAnAccount => 'Zaten bir hesabınız var mı?';
+
+  @override
+  String get authFillInBelowInformation =>
+      'Lütfen aşağıdaki bilgileri doldurun';
+
+  @override
+  String get authRememberYourPassword => 'Şifrenizi hatırlıyor musunuz?';
+
+  @override
+  String get authResendMail => 'Tekrar eposta gönder';
+
+  @override
+  String get authForgotPasswordMessage =>
+      'E-posta adresinizi girin, şifrenizi sıfırlamak için size bir bağlantı göndereceğiz.';
+
+  @override
+  String get onboardingSplash => 'İçindeki Dengeyi Keşfet';
+
+  @override
   String get onboardingTitle1 => 'Zennect\'e Hoş Geldiniz';
 
   @override
@@ -994,6 +1023,12 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get errorCancellationTimePassed => 'İptal süresi geçti';
+
+  @override
+  String get errorCheckYourEmail => 'Lütfen eposta adresinizi kontrol edin';
+
+  @override
+  String get errorPasswordsDoNotMatch => 'Şifreler uyuşmamaktadır';
 
   @override
   String get successLogin => 'Başarıyla giriş yapıldı';

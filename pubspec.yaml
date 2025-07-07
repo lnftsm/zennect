@@ -10,15 +10,41 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Localization
   flutter_localizations:
     sdk: flutter
+  intl: any
 
-  equatable: ^2.0.7
+  # Firebase
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  firebase_messaging: ^15.2.9
+  firebase_storage: ^12.4.9
 
+  # State Management
+  provider: ^6.1.5
+
+  # Storage
+  shared_preferences: ^2.5.3
+
+  # Network & API
+  http: ^1.4.0
+  connectivity_plus: ^6.1.4
+
+  # UI & Utils
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  image_cropper: ^9.1.0
+  permission_handler: ^12.0.1
+
+  # Logging
   logger: ^2.6.0
 
-  shared_preferences: ^2.5.3
-  intl: any
+  # Others
+  equatable: ^2.0.7
+  uuid: ^4.5.1
+  cloud_firestore: ^5.6.11
+  foundation: ^0.0.5
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +58,14 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/fonts/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_24pt-Regular.ttf
+        - asset: assets/fonts/Inter_24pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_24pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_24pt-Bold.ttf
+          weight: 700

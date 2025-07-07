@@ -229,6 +229,35 @@ class AppLocalizationsEn extends AppLocalizations {
       'I consent to the processing of my personal data under GDPR';
 
   @override
+  String get authCreateNewAccount => 'New Account';
+
+  @override
+  String get authSignInToAccount => 'Sign In';
+
+  @override
+  String get authDontHaveYouAccount => 'Don\'t have you an account?';
+
+  @override
+  String get authAlreadyHaveAnAccount => 'Already have an account?';
+
+  @override
+  String get authFillInBelowInformation =>
+      'Please fill in the information below';
+
+  @override
+  String get authRememberYourPassword => 'Remember your password?';
+
+  @override
+  String get authResendMail => 'Resend Email';
+
+  @override
+  String get authForgotPasswordMessage =>
+      '\'nter your email address and we will send you a link to reset your password.';
+
+  @override
+  String get onboardingSplash => 'Find Your Inner Balance';
+
+  @override
   String get onboardingTitle1 => 'Welcome to Zennect';
 
   @override
@@ -993,6 +1022,12 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get errorCancellationTimePassed => 'Cancellation time has passed';
+
+  @override
+  String get errorCheckYourEmail => 'Please check your email';
+
+  @override
+  String get errorPasswordsDoNotMatch => 'Passwords do not match';
 
   @override
   String get successLogin => 'Successfully logged in';

@@ -536,6 +536,60 @@ abstract class AppLocalizations {
   /// **'I consent to the processing of my personal data under GDPR'**
   String get authAgreeKvkk;
 
+  /// No description provided for @authCreateNewAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'New Account'**
+  String get authCreateNewAccount;
+
+  /// No description provided for @authSignInToAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign In'**
+  String get authSignInToAccount;
+
+  /// No description provided for @authDontHaveYouAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have you an account?'**
+  String get authDontHaveYouAccount;
+
+  /// No description provided for @authAlreadyHaveAnAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get authAlreadyHaveAnAccount;
+
+  /// No description provided for @authFillInBelowInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'Please fill in the information below'**
+  String get authFillInBelowInformation;
+
+  /// No description provided for @authRememberYourPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Remember your password?'**
+  String get authRememberYourPassword;
+
+  /// No description provided for @authResendMail.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend Email'**
+  String get authResendMail;
+
+  /// No description provided for @authForgotPasswordMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'\'nter your email address and we will send you a link to reset your password.'**
+  String get authForgotPasswordMessage;
+
+  /// No description provided for @onboardingSplash.
+  ///
+  /// In en, this message translates to:
+  /// **'Find Your Inner Balance'**
+  String get onboardingSplash;
+
   /// No description provided for @onboardingTitle1.
   ///
   /// In en, this message translates to:
@@ -2059,6 +2113,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Cancellation time has passed'**
   String get errorCancellationTimePassed;
+
+  /// No description provided for @errorCheckYourEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please check your email'**
+  String get errorCheckYourEmail;
+
+  /// No description provided for @errorPasswordsDoNotMatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords do not match'**
+  String get errorPasswordsDoNotMatch;
 
   /// No description provided for @successLogin.
   ///
